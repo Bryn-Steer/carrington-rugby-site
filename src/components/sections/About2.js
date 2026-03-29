@@ -20,7 +20,7 @@ export default function About2() {
 						<div className="tf-title-wrap title-small">
 							<div className="title-box-v2">
 								<span className="sub-title wow fadeInUp animated">About Us</span>
-								<h2 className="title-section wow fadeInUp animated">Welcome to runclub!</h2>
+								<h2 className="title-section wow fadeInUp animated">Welcome to The Pig Sty</h2>
 								<p className="ab-v2 wow fadeInUp animated">Welcome to our vibrant running community,
 									where we organize exciting running events,
 									provide helpful running tutorials,<br />

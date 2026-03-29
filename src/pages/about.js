@@ -44,7 +44,7 @@ export default function About() {
 												<img className="mask-media wow fadeInLeft animated" src="images/about/mask1.png" alt="image" />
 												<img className="shape-media wow fadeInRight animated" src="images/about/graphic.png" alt="image" />
 											</div>
-											<img src="images/about/mask2.png" alt="image" className="image-gr wow fadeInRight animated" />
+											<img src="images/about/mask2.svg" alt="image" className="image-gr wow fadeInRight animated" />
 											<img src="images/about/Intersect.png" alt="image" className="intersect-img" />
 										</div>
 									</div>
@@ -53,23 +53,19 @@ export default function About() {
 											<img src="images/about/graphic-box.png" alt="image shape" />
 											{/* header style v1 */}
 											<div className="title-box title-small-v2">
-												<span className="sub-title wow fadeInUp animated">Welcome to runclub!</span>
-												<h2 className="title-section wow fadeInUp animated">Zunzo - Your Ultimate Running Community
+												<span className="sub-title wow fadeInUp animated">Welcome to The Pig Sty!</span>
+												<h2 className="title-section wow fadeInUp animated">Carrington Pigs - Snout and Tail above the rest 
 												</h2>
 											</div>{/* header style v1 */}
 											<p className="post wow fadeInUp animated">
-												Welcome to our vibrant running community, where we organize exciting running events,
-												provide helpful running tutorials, and keep you informed with the latest running news.
+												Home of the Pigs. A welcoming rugby club where everyone belongs. All ages, all abilities, all backgrounds. Come train, get stuck in, and enjoy being part of Carrington.
 											</p>
 											<div className="line" />
 											<div className="about-button-group">
-												<button className="flat-button wow fadeInUp animated">Find out more</button>
+												<Link to="/Contact" className="flat-button wow fadeInUp animated">
+													Contact Us
+												</Link>
 												<div className="infor-about">
-													<img src="images/about/info.png" alt="" />
-													<div className="info">
-														<div className="name wow fadeInUp animated">Chris pad</div>
-														<div className="job wow fadeInUp animated">Co - Founder Zunzo</div>
-													</div>
 												</div>
 											</div>
 										</div>
@@ -96,9 +92,9 @@ export default function About() {
 												</defs>
 											</svg>
 											<div className="content-counter">
-												<CountUp className="numb-count" enableScrollSpy={true} end={196} data-speed={2000} data-waypoint-active="yes">196
+												<CountUp className="numb-count" enableScrollSpy={true} end={36} data-speed={2000} data-waypoint-active="yes">36
 												</CountUp>
-												<div className="name-count"> running awards</div>
+												<div className="name-count"> Pigs in the Pen</div>
 											</div>
 										</div>{/* /.flat-counter */}
 									</div>
@@ -109,9 +105,9 @@ export default function About() {
 												<path d="M49.3811 64.759C49.087 64.4677 48.6902 64.3038 48.2764 64.3027C47.8639 64.3027 47.4623 64.4684 47.1717 64.759C46.879 65.0529 46.7145 65.4505 46.7139 65.8652C46.7139 66.2762 46.8795 66.6793 47.1717 66.9698C47.4651 67.2621 47.8622 67.4267 48.2764 67.4277C48.6873 67.4277 49.0889 67.2605 49.3811 66.9698C49.6717 66.6777 49.8389 66.2762 49.8389 65.8652C49.8389 65.4543 49.6717 65.0512 49.3811 64.759Z" fill="#5E6267" />
 											</svg>
 											<div className="content-counter">
-												<CountUp className="numb-count" enableScrollSpy={true} end={2432} data-speed={2000} data-waypoint-active="yes">2432
+												<CountUp className="numb-count" enableScrollSpy={true} end={1464} data-speed={2000} data-waypoint-active="yes">1464
 												</CountUp>
-												<div className="name-count">active members</div>
+												<div className="name-count">Games Played</div>
 											</div>
 										</div>{/* /.flat-counter */}
 									</div>
@@ -123,9 +119,9 @@ export default function About() {
 												<path d="M30.75 16.75H33.25V19.25H30.75V16.75ZM58.25 3H60.75V5.5H58.25V3ZM17 4.25H19.5V6.75H17V4.25Z" fill="#5E6267" />
 											</svg>
 											<div className="content-counter">
-												<CountUp className="numb-count" enableScrollSpy={true} end={244} data-speed={2000} data-waypoint-active="yes">244
+												<CountUp className="numb-count" enableScrollSpy={true} end={1000000} data-speed={2000} data-waypoint-active="yes">1,000,000
 												</CountUp>
-												<div className="name-count">Run Events</div>
+												<div className="name-count">Pints Drunk</div>
 											</div>
 										</div>{/* /.flat-counter */}
 									</div>
@@ -145,9 +141,9 @@ export default function About() {
 												</defs>
 											</svg>
 											<div className="content-counter">
-												<CountUp className="numb-count" enableScrollSpy={true} end={85} data-speed={2000} data-waypoint-active="yes"> 85 Km
+												<CountUp className="numb-count" enableScrollSpy={true} end={1} data-speed={2000} data-waypoint-active="yes"> 1
 												</CountUp>
-												<div className="name-count">Miles Run</div>
+												<div className="name-count">Community</div>
 											</div>
 										</div>{/* /.flat-counter */}
 									</div>
@@ -160,45 +156,22 @@ export default function About() {
 							<div className="row">
 								<div className="col-md-12 col-lg-7">
 									<div className="image-mission-wrap">
-										<img src="images/about/tab1.jpg" alt="Image" className="image-v1 wow fadeInRight animated" />
-										<img src="images/about/tab2.jpg" alt="Image" className="image-v2 wow fadeInLeft animated" />
+										<img src="images/blog/post-widget2.jpg" alt="Image" className="image-v1 wow fadeInRight animated" />
 									</div>
 								</div>
 								<div className="col-md-12 col-lg-5">
 									<div className="mission-content">
-										<div className="mission-trust">
-											<ul>
-												<li className="wow fadeInUp animated" data-wow-delay="0.1s">
-													<img src="images/about/1.png" alt="" />
-												</li>
-												<li className="wow fadeInUp animated" data-wow-delay="0.2s">
-													<img src="images/about/2.png" alt="" />
-												</li>
-												<li className="wow fadeInUp animated" data-wow-delay="0.3s">
-													<img src="images/about/3.png" alt="" />
-												</li>
-												<li className="wow fadeInUp animated" data-wow-delay="0.4s">
-													<img src="images/about/4.png" alt="" />
-												</li>
-												<li className="wow fadeInUp animated" data-wow-delay="0.5s">
-													<div className="number-m">5m</div>
-												</li>
-											</ul>
-											<span className="wow fadeInUp animated">Trusted by 50M+ People around the globe</span>
-										</div>
 										<div className="mission-tab">
 											<nav>
 												<div className="nav nav-tabs" id="nav-tab" role="tablist">
 													<button className={isTab == 1 ? "nav-link active" : "nav-link"} id="nav-home-tab" onClick={() => handleTab(1)}>our Mission</button>
-													<button className={isTab == 2 ? "nav-link active" : "nav-link"} id="nav-profile-tab" onClick={() => handleTab(2)}>our Mission</button>
+													<button className={isTab == 2 ? "nav-link active" : "nav-link"} id="nav-profile-tab" onClick={() => handleTab(2)}>our Vision</button>
 												</div>
 											</nav>
 											<div className="tab-content" id="nav-tabContent">
 												<div className={isTab == 1 ? "tab-pane fade show active" : "tab-pane fade"} role="tabpanel" aria-labelledby="nav-home-tab">
 													<p className="post wow fadeInUp animated">
-														Our objective for this project was to develop a comprehensive financial
-														management platform that provided users with a centralized dashboard for
-														managing their finances.
+														To provide a welcoming, inclusive rugby club where people of all ages and abilities can enjoy the game, grow in confidence, and feel part of a strong community.
 													</p>
 													<ul>
 														<li className="wow fadeInUp animated" data-wow-delay="0.1s">
@@ -207,7 +180,7 @@ export default function About() {
 																	<path fillRule="evenodd" clipRule="evenodd" d="M10 0C4.48438 0 0 4.48438 0 10C0 15.5156 4.48438 20 10 20C15.5156 20 20 15.5156 20 10C20 4.48438 15.5156 0 10 0Z" fill="#C3E92D" />
 																	<path d="M14.4776 6.9806L14.4776 6.98061L14.4804 6.98344C14.5274 7.03036 14.5274 7.11222 14.4804 7.15914L8.62106 13.0185C8.59595 13.0436 8.56393 13.0557 8.5332 13.0557C8.50248 13.0557 8.47045 13.0436 8.44535 13.0185L5.51566 10.0888C5.46874 10.0419 5.46874 9.96005 5.51566 9.91312C5.56259 9.8662 5.64444 9.8662 5.69137 9.91312L8.17965 12.4014L8.5332 12.755L8.88676 12.4014L14.3047 6.98344L14.3047 6.98345L14.3075 6.9806C14.3538 6.93355 14.4313 6.93355 14.4776 6.9806Z" fill="#121212" stroke="#121212" />
 																</svg>
-																Identification of monthly income
+																Making rugby accessible to everyone
 															</span>
 														</li>
 														<li className="wow fadeInUp animated" data-wow-delay="0.2s">
@@ -216,7 +189,7 @@ export default function About() {
 																	<path fillRule="evenodd" clipRule="evenodd" d="M10 0C4.48438 0 0 4.48438 0 10C0 15.5156 4.48438 20 10 20C15.5156 20 20 15.5156 20 10C20 4.48438 15.5156 0 10 0Z" fill="#C3E92D" />
 																	<path d="M14.4776 6.9806L14.4776 6.98061L14.4804 6.98344C14.5274 7.03036 14.5274 7.11222 14.4804 7.15914L8.62106 13.0185C8.59595 13.0436 8.56393 13.0557 8.5332 13.0557C8.50248 13.0557 8.47045 13.0436 8.44535 13.0185L5.51566 10.0888C5.46874 10.0419 5.46874 9.96005 5.51566 9.91312C5.56259 9.8662 5.64444 9.8662 5.69137 9.91312L8.17965 12.4014L8.5332 12.755L8.88676 12.4014L14.3047 6.98344L14.3047 6.98345L14.3075 6.9806C14.3538 6.93355 14.4313 6.93355 14.4776 6.9806Z" fill="#121212" stroke="#121212" />
 																</svg>
-																Creation of savings and investment plan
+																Creating a positive, judgement free environment
 															</span>
 														</li>
 														<li className="wow fadeInUp animated" data-wow-delay="0.3s">
@@ -225,7 +198,7 @@ export default function About() {
 																	<path fillRule="evenodd" clipRule="evenodd" d="M10 0C4.48438 0 0 4.48438 0 10C0 15.5156 4.48438 20 10 20C15.5156 20 20 15.5156 20 10C20 4.48438 15.5156 0 10 0Z" fill="#C3E92D" />
 																	<path d="M14.4776 6.9806L14.4776 6.98061L14.4804 6.98344C14.5274 7.03036 14.5274 7.11222 14.4804 7.15914L8.62106 13.0185C8.59595 13.0436 8.56393 13.0557 8.5332 13.0557C8.50248 13.0557 8.47045 13.0436 8.44535 13.0185L5.51566 10.0888C5.46874 10.0419 5.46874 9.96005 5.51566 9.91312C5.56259 9.8662 5.64444 9.8662 5.69137 9.91312L8.17965 12.4014L8.5332 12.755L8.88676 12.4014L14.3047 6.98344L14.3047 6.98345L14.3075 6.9806C14.3538 6.93355 14.4313 6.93355 14.4776 6.9806Z" fill="#121212" stroke="#121212" />
 																</svg>
-																Management and calculation of monthly expenses
+																Supporting fitness, wellbeing, and connection
 															</span>
 														</li>
 														<li className="wow fadeInUp animated" data-wow-delay="0.4s">
@@ -234,16 +207,14 @@ export default function About() {
 																	<path fillRule="evenodd" clipRule="evenodd" d="M10 0C4.48438 0 0 4.48438 0 10C0 15.5156 4.48438 20 10 20C15.5156 20 20 15.5156 20 10C20 4.48438 15.5156 0 10 0Z" fill="#C3E92D" />
 																	<path d="M14.4776 6.9806L14.4776 6.98061L14.4804 6.98344C14.5274 7.03036 14.5274 7.11222 14.4804 7.15914L8.62106 13.0185C8.59595 13.0436 8.56393 13.0557 8.5332 13.0557C8.50248 13.0557 8.47045 13.0436 8.44535 13.0185L5.51566 10.0888C5.46874 10.0419 5.46874 9.96005 5.51566 9.91312C5.56259 9.8662 5.64444 9.8662 5.69137 9.91312L8.17965 12.4014L8.5332 12.755L8.88676 12.4014L14.3047 6.98344L14.3047 6.98345L14.3075 6.9806C14.3538 6.93355 14.4313 6.93355 14.4776 6.9806Z" fill="#121212" stroke="#121212" />
 																</svg>
-																Management and calculation of monthly expenses
+																Building a culture of respect and belonging
 															</span>
 														</li>
 													</ul>
 												</div>
 												<div className={isTab == 2 ? "tab-pane fade show active" : "tab-pane fade"} id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
 													<p className="post wow fadeInUp animated">
-														Our objective for this project was to develop a comprehensive financial
-														management platform that provided users with a centralized dashboard for
-														managing their finances.
+														To be known as the home of inclusive rugby in Manchester. A club where community, enjoyment, and opportunity come before ego or exclusivity.
 													</p>
 													<ul>
 														<li className="wow fadeInUp animated" data-wow-delay="0.1s">
@@ -252,7 +223,7 @@ export default function About() {
 																	<path fillRule="evenodd" clipRule="evenodd" d="M10 0C4.48438 0 0 4.48438 0 10C0 15.5156 4.48438 20 10 20C15.5156 20 20 15.5156 20 10C20 4.48438 15.5156 0 10 0Z" fill="#C3E92D" />
 																	<path d="M14.4776 6.9806L14.4776 6.98061L14.4804 6.98344C14.5274 7.03036 14.5274 7.11222 14.4804 7.15914L8.62106 13.0185C8.59595 13.0436 8.56393 13.0557 8.5332 13.0557C8.50248 13.0557 8.47045 13.0436 8.44535 13.0185L5.51566 10.0888C5.46874 10.0419 5.46874 9.96005 5.51566 9.91312C5.56259 9.8662 5.64444 9.8662 5.69137 9.91312L8.17965 12.4014L8.5332 12.755L8.88676 12.4014L14.3047 6.98344L14.3047 6.98345L14.3075 6.9806C14.3538 6.93355 14.4313 6.93355 14.4776 6.9806Z" fill="#121212" stroke="#121212" />
 																</svg>
-																Identification of monthly income
+																Welcome beginners, families, and experienced players
 															</span>
 														</li>
 														<li className="wow fadeInUp animated" data-wow-delay="0.2s">
@@ -261,7 +232,7 @@ export default function About() {
 																	<path fillRule="evenodd" clipRule="evenodd" d="M10 0C4.48438 0 0 4.48438 0 10C0 15.5156 4.48438 20 10 20C15.5156 20 20 15.5156 20 10C20 4.48438 15.5156 0 10 0Z" fill="#C3E92D" />
 																	<path d="M14.4776 6.9806L14.4776 6.98061L14.4804 6.98344C14.5274 7.03036 14.5274 7.11222 14.4804 7.15914L8.62106 13.0185C8.59595 13.0436 8.56393 13.0557 8.5332 13.0557C8.50248 13.0557 8.47045 13.0436 8.44535 13.0185L5.51566 10.0888C5.46874 10.0419 5.46874 9.96005 5.51566 9.91312C5.56259 9.8662 5.64444 9.8662 5.69137 9.91312L8.17965 12.4014L8.5332 12.755L8.88676 12.4014L14.3047 6.98344L14.3047 6.98345L14.3075 6.9806C14.3538 6.93355 14.4313 6.93355 14.4776 6.9806Z" fill="#121212" stroke="#121212" />
 																</svg>
-																Creation of savings and investment plan
+																Grow a diverse, supportive rugby community
 															</span>
 														</li>
 														<li className="wow fadeInUp animated" data-wow-delay="0.3s">
@@ -270,7 +241,7 @@ export default function About() {
 																	<path fillRule="evenodd" clipRule="evenodd" d="M10 0C4.48438 0 0 4.48438 0 10C0 15.5156 4.48438 20 10 20C15.5156 20 20 15.5156 20 10C20 4.48438 15.5156 0 10 0Z" fill="#C3E92D" />
 																	<path d="M14.4776 6.9806L14.4776 6.98061L14.4804 6.98344C14.5274 7.03036 14.5274 7.11222 14.4804 7.15914L8.62106 13.0185C8.59595 13.0436 8.56393 13.0557 8.5332 13.0557C8.50248 13.0557 8.47045 13.0436 8.44535 13.0185L5.51566 10.0888C5.46874 10.0419 5.46874 9.96005 5.51566 9.91312C5.56259 9.8662 5.64444 9.8662 5.69137 9.91312L8.17965 12.4014L8.5332 12.755L8.88676 12.4014L14.3047 6.98344L14.3047 6.98345L14.3075 6.9806C14.3538 6.93355 14.4313 6.93355 14.4776 6.9806Z" fill="#121212" stroke="#121212" />
 																</svg>
-																Management and calculation of monthly expenses
+																Use rugby to build confidence, wellbeing, and pride
 															</span>
 														</li>
 														<li className="wow fadeInUp animated" data-wow-delay="0.4s">
@@ -279,7 +250,7 @@ export default function About() {
 																	<path fillRule="evenodd" clipRule="evenodd" d="M10 0C4.48438 0 0 4.48438 0 10C0 15.5156 4.48438 20 10 20C15.5156 20 20 15.5156 20 10C20 4.48438 15.5156 0 10 0Z" fill="#C3E92D" />
 																	<path d="M14.4776 6.9806L14.4776 6.98061L14.4804 6.98344C14.5274 7.03036 14.5274 7.11222 14.4804 7.15914L8.62106 13.0185C8.59595 13.0436 8.56393 13.0557 8.5332 13.0557C8.50248 13.0557 8.47045 13.0436 8.44535 13.0185L5.51566 10.0888C5.46874 10.0419 5.46874 9.96005 5.51566 9.91312C5.56259 9.8662 5.64444 9.8662 5.69137 9.91312L8.17965 12.4014L8.5332 12.755L8.88676 12.4014L14.3047 6.98344L14.3047 6.98345L14.3075 6.9806C14.3538 6.93355 14.4313 6.93355 14.4776 6.9806Z" fill="#121212" stroke="#121212" />
 																</svg>
-																Management and calculation of monthly expenses
+																Create a club people are proud to belong to
 															</span>
 														</li>
 													</ul>
@@ -296,21 +267,21 @@ export default function About() {
 						<div className="themeflat-container">
 							<div className="tf-banne-paralax">
 								<h2 className="title-banner wow fadeInUp animated">
-									Join our running club now
+									Join our club now
 								</h2>
-								<span className="sale wow fadeInUp animated">-30%</span>
+								<span className="sale wow fadeInUp animated"> Literally Free</span>
 								<img src="images/retinal/runclub.png" alt="runclub" className="wow fadeInUp animated" />
 								<Link to="/contact" className="flat-button wow fadeInUp animated">Join now</Link>
 							</div>
 						</div>
 					</div>{/* banner-paralax */}
-					{/* Team-member */}
+					{/* Team-member 
 					<div className="tf-widget-team main-content">
 						<div className="themeflat-container">
 							<div className="team-member">
 								<div className="title-box title-small center-title-box">
 									<span className="sub-title wow fadeInUp animated">Our team</span>
-									<h2 className="title-section wow fadeInUp animated">our member, couch</h2>
+									<h2 className="title-section wow fadeInUp animated">our coaches</h2>
 								</div>
 								<div className="row team">
 									<div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
@@ -332,8 +303,8 @@ export default function About() {
 												</div>
 												<div className="shape-team" />
 											</div>
-											<h3 className="name-member">Chris pad</h3>
-											<h4 className="job">Co - Founder Zunzo</h4>
+											<h3 className="name-member">Alex</h3>
+											<h4 className="job">Captain</h4>
 										</div>
 									</div>
 									<div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
@@ -355,8 +326,8 @@ export default function About() {
 												</div>
 												<div className="shape-team" />
 											</div>
-											<h3 className="name-member">maverick</h3>
-											<h4 className="job">Manager</h4>
+											<h3 className="name-member">Tom</h3>
+											<h4 className="job">Vice-Captain</h4>
 										</div>
 									</div>
 									<div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
@@ -378,8 +349,8 @@ export default function About() {
 												</div>
 												<div className="shape-team" />
 											</div>
-											<h3 className="name-member">Jessica nguyen</h3>
-											<h4 className="job">Coach</h4>
+											<h3 className="name-member">Stuart</h3>
+											<h4 className="job">Chairman</h4>
 										</div>
 									</div>
 									<div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
@@ -401,14 +372,14 @@ export default function About() {
 												</div>
 												<div className="shape-team" />
 											</div>
-											<h3 className="name-member">jenifer nolan</h3>
-											<h4 className="job">Co - Founder Zunzo</h4>
+											<h3 className="name-member">Fez</h3>
+											<h4 className="job">Geezer</h4>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>{/* Team-member */}
+					</div>{/* Team-member */} 
 					{/* Widget form conatct*/}
 					<div className="tf-widget-form-contact">
 						<div className="themeflat-container">
@@ -416,7 +387,7 @@ export default function About() {
 								<div className="row">
 									<div className="col-md-6 pd-form">
 										<div className="map-contact relative">
-											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan Rafael%2C California%2C Hoa Kỳ!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={585} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.963948283408!2d-2.357899223284703!3d53.433352872314664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bac72c64732b3%3A0x5e58f7ed95c62b43!2sAshton-on-Mersey%20Sports%20Club!5e0!3m2!1sen!2suk!4v1765824611561!5m2!1sen!2suk" height={585} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
 										</div>
 									</div>
 									<div className="col-md-6 pd-form">
@@ -427,25 +398,16 @@ export default function About() {
 											<div className="list-contact">
 												<div className="contact">
 													<span> Phone: </span>
-													<div className="address">(555) 123-4567</div>
+													<div className="address">0161 123456</div>
 												</div>
 												<div className="contact">
 													<span> Email: </span>
-													<div className="address">hello@zunzo.com</div>
+													<div className="address">hello@carringtonrugby.com</div>
 												</div>
 											</div>
 											<ul className="social-media">
 												<li>
-													<Link to="/twitter.com"><i className="icon-twitter" /></Link>
-												</li>
-												<li>
-													<Link to="/dribbble.com"><i className="icon-dribbble" /></Link>
-												</li>
-												<li>
-													<Link to="/behance.com"><i className="icon-behance" /></Link>
-												</li>
-												<li>
-													<Link to="/pinterest.com"><i className="icon-pinterest" /></Link>
+													<Link to="https://www.instagram.com/carrington_rufc/"><i className="icon-instagram" /></Link>
 												</li>
 											</ul>
 											<div className="form-register">

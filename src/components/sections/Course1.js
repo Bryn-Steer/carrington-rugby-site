@@ -10,9 +10,9 @@ export default function Course1() {
 					<div className="tf-course">
 						{/* header style v1 */}
 						<div className="title-box center-title-box title-large">
-							<span className="sub-title wow fadeInUp animated">Course/tutorial</span>
-							<h2 className="title-section wow fadeInUp animated">Running Course articles &amp; video<br /> tutorials about
-								running</h2>
+							<span className="sub-title wow fadeInUp animated">Pigs News</span>
+							<h2 className="title-section wow fadeInUp animated">Club articles, Stories &amp;<br /> future 
+								events</h2>
 						</div>{/* header style v1 */}
 						<div className="row">
 							<div className="col-md-4 course">
@@ -37,7 +37,7 @@ export default function Course1() {
 																</clipPath>
 															</defs>
 														</svg>
-														Running Tips
+														Rugby Tips
 													</Link>
 													<Link to="/blog-single">
 														<svg width={24} height={25} viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -51,18 +51,13 @@ export default function Course1() {
 																</clipPath>
 															</defs>
 														</svg>
-														12 comments
+														
 													</Link>
 												</li>
 											</ul>
 										</div>
-										<h5 className="title-course"><Link to="/blog-single">Embracing the Journey: Unraveling
-											the Life-Changing
-											Benefits of
-											Running</Link></h5>
-										<p className="description-course">Explore the myriad health advantages that running offers,
-											from enhancing
-											cardiovascular fitness and strengthening...</p>
+										<h5 className="title-course"><Link to="/blog-single">Rugby for Everyone: Why You Don’t Need to Be “Built for It”</Link></h5>
+										<p className="description-course">You don’t need a certain body type, background, or experience level to play rugby at Carrington. If you want to get fitter....</p>
 									</div>
 									<Link to="/blog-single" className="flat-button">Read more</Link>
 								</div>
@@ -84,7 +79,7 @@ export default function Course1() {
 																<path d="M8.25 8.07812C8.25 8.28523 8.08211 8.45312 7.875 8.45312C7.66789 8.45312 7.5 8.28523 7.5 8.07812C7.5 7.87102 7.66789 7.70312 7.875 7.70312C8.08211 7.70312 8.25 7.87102 8.25 8.07812Z" stroke="#121212" strokeWidth="1.5" />
 															</g>
 														</svg>
-														Training Programs
+														Club Values
 													</Link>
 													<Link to="/blog-single">
 														<svg width={24} height={25} viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,16 +88,13 @@ export default function Course1() {
 																<path d="M7.5 13.7031V17.4531C7.5 17.652 7.57902 17.8428 7.71967 17.9835C7.86032 18.1241 8.05109 18.2031 8.25 18.2031H17.2894L21 21.2031V9.20312C21 9.00421 20.921 8.81345 20.7803 8.6728C20.6397 8.53214 20.4489 8.45312 20.25 8.45312H16.5" stroke="#121212" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</g>
 														</svg>
-														2 comments
+														
 													</Link>
 												</li>
 											</ul>
 										</div>
-										<h5 className="title-course"><Link to="/blog-single">Empowerment through Running:
-											Discovering the Key to
-											a Healthier and Happier Life</Link></h5>
-										<p className="description-course">Unleash the freedom of mind and body as you experience the
-											joy and liberation of running. Discover how running...</p>
+										<h5 className="title-course"><Link to="/blog-single">Home of the Pigs: What Being a Carrington Player Really Means</Link></h5>
+										<p className="description-course">Being a Pig isn’t about ego or image. It’s about effort, humour, and backing each other. From first timers to seasoned players, Carrington is built on....</p>
 									</div>
 									<Link to="/blog-single" className="flat-button">Read more</Link>
 								</div>
@@ -124,7 +116,7 @@ export default function Course1() {
 																<path d="M8.25 8.07812C8.25 8.28523 8.08211 8.45312 7.875 8.45312C7.66789 8.45312 7.5 8.28523 7.5 8.07812C7.5 7.87102 7.66789 7.70312 7.875 7.70312C8.08211 7.70312 8.25 7.87102 8.25 8.07812Z" stroke="#121212" strokeWidth="1.5" />
 															</g>
 														</svg>
-														Running Events
+														Conscription
 													</Link>
 													<Link to="/blog-single">
 														<svg width={24} height={25} viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -133,16 +125,13 @@ export default function Course1() {
 																<path d="M7.5 13.7031V17.4531C7.5 17.652 7.57902 17.8428 7.71967 17.9835C7.86032 18.1241 8.05109 18.2031 8.25 18.2031H17.2894L21 21.2031V9.20312C21 9.00421 20.921 8.81345 20.7803 8.6728C20.6397 8.53214 20.4489 8.45312 20.25 8.45312H16.5" stroke="#121212" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</g>
 														</svg>
-														09 comments
+														
 													</Link>
 												</li>
 											</ul>
 										</div>
-										<h5 className="title-course"><Link to="/blog-single">Running towards Greatness: Unleash
-											Your Inner
-											Athlete and Embrace the Joy of Fitness</Link></h5>
-										<p className="description-course">Embrace the camaraderie and support of the running
-											community as you connect with like-minded individuals...</p>
+										<h5 className="title-course"><Link to="/blog-single">Nervous About Joining a Rugby Club? You’re Exactly Who We’re Looking For</Link></h5>
+										<p className="description-course">Most people who join Carrington start with doubts, not confidence. That’s why we focus on welcoming you first, then...</p>
 									</div>
 									<Link to="/blog-single" className="flat-button">Read more</Link>
 								</div>

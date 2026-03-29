@@ -31,17 +31,15 @@ export default function Blog() {
 										<div className="tag">
 											<ul>
 												<li>
-													<Link to="/blog-single">Running</Link>
+													<Link to="/blog-single">Rugby</Link>
 												</li>
 											</ul>
 										</div>
-										<h2 className="entry-title"><Link to="/blog-single">10 Essential Tips for Beginner
-											Runners: Start Your
-											Running Journey Right</Link>
+										<h2 className="entry-title"><Link to="/blog-single">Why Your First Rugby Session Is Easier Than You Think</Link>
 										</h2>
 										<div className="entry-meta">
-											<span className="author line"><Link to="/blog-single">by Tony Nguyen </Link></span>
-											<span className="date line"><Link to="/blog-single">Oct 12, 2023</Link></span>
+											<span className="author line"><Link to="/blog-single"> </Link></span>
+											<span className="date line"><Link to="/blog-single">Oct 12, 2025</Link></span>
 										</div>
 										<Link className="more-link" to="/blog-single">Read More</Link>
 										{/* /.entry-meta */}
@@ -56,20 +54,16 @@ export default function Blog() {
 									<div className="main-post">
 										<div className="tag wow fadeInUp animated">
 											<ul>
-												<li><Link to="/blog-single">Race</Link></li>
+												<li><Link to="/blog-single2">Training</Link></li>
 											</ul>
 										</div>
-										<h2 className="entry-title wow fadeInUp animated"><Link to="/blog-single">The Science
-											Behind Running:
-											How It Benefits Your
-											Body
-											and Mind</Link>
+										<h2 className="entry-title wow fadeInUp animated"><Link to="/blog-single2">No Experience? No Problem. How We Welcome New Players at Carrington</Link>
 										</h2>
 										<div className="entry-meta wow fadeInUp animated">
-											<span className="author line">by <Link to="/blog-single">Rae Lil </Link></span>
-											<span className="date line"><Link to="/blog-single">Oct 12, 2023</Link></span>
+											<span className="author line"> <Link to="/blog-single2"></Link></span>
+											<span className="date line"><Link to="/blog-single2">Oct 12, 2025</Link></span>
 										</div>
-										<Link className="more-link wow fadeInUp animated" to="/blog-single">Read More</Link>
+										<Link className="more-link wow fadeInUp animated" to="/blog-single2">Read More</Link>
 										{/* /.entry-meta */}
 									</div>{/* /.main-post */}
 								</article>
@@ -80,19 +74,16 @@ export default function Blog() {
 									<div className="main-post">
 										<div className="tag wow fadeInUp animated">
 											<ul>
-												<li><Link to="/blog-single">Running</Link></li>
+												<li><Link to="/blog-single3">History</Link></li>
 											</ul>
 										</div>
-										<h2 className="entry-title wow fadeInUp animated"><Link to="/blog-single">From Couch to
-											5K: A
-											Step-by-Step Guide to Becoming a
-											Runner</Link>
+										<h2 className="entry-title wow fadeInUp animated"><Link to="/blog-single3">More Than Rugby: How the Pigs Became a Proper Community</Link>
 										</h2>
 										<div className="entry-meta wow fadeInUp animated">
-											<span className="author line">by <Link to="/blog-single">Michale Chen </Link></span>
-											<span className="date line"><Link to="/blog-single">Oct 12, 2023</Link></span>
+											<span className="author line"> <Link to="/blog-single3"></Link></span>
+											<span className="date line"><Link to="/blog-single3">Oct 12, 2025</Link></span>
 										</div>
-										<Link className="more-link wow fadeInUp animated" to="/blog-single">Read More</Link>
+										<Link className="more-link wow fadeInUp animated" to="/blog-single3">Read More</Link>
 										{/* /.entry-meta */}
 									</div>{/* /.main-post */}
 								</article>
@@ -103,19 +94,16 @@ export default function Blog() {
 									<div className="main-post">
 										<div className="tag wow fadeInUp animated">
 											<ul>
-												<li><Link to="/blog-single">Running</Link></li>
+												<li><Link to="/blog-single4">Training</Link></li>
 											</ul>
 										</div>
-										<h2 className="entry-title wow fadeInUp animated"><Link to="/blog-single">The Best
-											Running Shoes for
-											Every Terrain: Find Your
-											Perfect Fit</Link>
+										<h2 className="entry-title wow fadeInUp animated"><Link to="/blog-single4">From “I’ll Just Watch” to “See You at Training”</Link>
 										</h2>
 										<div className="entry-meta wow fadeInUp animated">
-											<span className="author line">by <Link to="/blog-single">Maverick Nguyen</Link></span>
-											<span className="date line"><Link to="/blog-single">Oct 12, 2023</Link></span>
+											<span className="author line"> <Link to="/blog-single4"></Link></span>
+											<span className="date line"><Link to="/blog-single4">Oct 12, 2025</Link></span>
 										</div>
-										<Link className="more-link wow fadeInUp animated" to="/blog-single">Read More</Link>
+										<Link className="more-link wow fadeInUp animated" to="/blog-single4">Read More</Link>
 										{/* /.entry-meta */}
 									</div>{/* /.main-post */}
 								</article>

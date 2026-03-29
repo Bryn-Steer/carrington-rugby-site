@@ -13,7 +13,6 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -33,7 +32,7 @@
 }
 .icon-clarity_block-quote-line:before {
   content: "\e902";
-  color: #c3e92d;
+  color: #c09a9a;
 }
 .icon-Group .path1:before {
   content: "\e903";

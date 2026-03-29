@@ -37,12 +37,12 @@
   
 :root {
 	--white: #ffffff;
-	--primary: #C3E92D;
+	--primary: #ff0000;
 	--success: #3DAB25;
 	--black: #121212;
 	--surface: #F7F7F7;
 	--line: #E9E9E9;
-	--secondary: #5E6267;
+	--secondary: #66675e;
 	--interactive: #2E72D2;
 	--linear: #E9E9E9;
 	--secondary-one: #A0A0A0;
@@ -50,6 +50,7 @@
 	--linear-one: #E9E9E9;
 	--grey: #1E1E1E;
 	--line2: #2E2E2E;
+	--yellow: #ffe100;
 
 }
 
@@ -83,7 +84,7 @@ p.post {
 }
 
 .background-green {
-	background-color: var(--primary);
+	background-color: var(--yellow);
 }
 
 .background-grey {
@@ -467,7 +468,7 @@ p.flat-description-slider {
 
 /* paralax event */
 .tf-widget-event {
-	background-image: url("../images/parallax/paralax1.jpg");
+	background-image: url("../images/parallax/rug.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -476,7 +477,7 @@ p.flat-description-slider {
 	width: 100%;
 }
 .tf-widget-form-contact {
-	background-image: url("../images/retinal/contact.jpg");
+	background-image: url("../images/blog/post-widget1.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -505,6 +506,7 @@ p.flat-description-slider {
 	margin-bottom: 44px;
 	display: inline;
 	text-transform: capitalize;
+	color: #F7F7F7;
 }
 
 .tf-widget-banner span.sale {
@@ -512,7 +514,7 @@ p.flat-description-slider {
 	font-size: 30px;
 	line-height: 42px;
 	font-weight: 500;
-	background-color: var(--primary);
+	background-color: var(--yellow);
 	padding: 6px 20px;
 	display: inline-block;
 	border-radius: 55px;
@@ -1421,7 +1423,7 @@ p.flat-description-slider {
 .tf-widget-testimonial::before {
 	width: 373px;
 	position: absolute;
-	background-color: var(--primary);
+	background-color: var(--yellow);
 	right: 0;
 	top: 0;
 	bottom: 0;
@@ -2154,6 +2156,7 @@ select#sexs {
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 32px;
+	color: var(--white);
 }
 
 .form-contact .heading-register .title-register {
@@ -2205,6 +2208,7 @@ select#sexs {
 	padding: 0 12px;
 	position: relative;
 	z-index: 3;
+	color: var(--white);
 }
 
 /* Widget Form Contact  */

@@ -13,31 +13,21 @@ export default function Form1() {
 					<div className="col-md-6 pd-form">
 						<div className="widget-register background-green">
 							<div className="heading-register">
-								<img src="images/retinal/img-form-start.png" alt="image form" />
-								<h2 className="title-register">Join our running club now </h2>
+								<h2 className="title-register">Join our club now </h2>
 							</div>
 							<div className="list-contact">
 								<div className="contact">
 									<span> Phone: </span>
-									<div className="address">(555) 123-4567</div>
+									<div className="address">0161 123456</div>
 								</div>
 								<div className="contact">
 									<span> Email: </span>
-									<div className="address">hello@zunzo.com</div>
+									<div className="address">hello@carringtonrugby.com</div>
 								</div>
 							</div>
 							<ul className="social-media">
 								<li>
-									<Link to="/twitter.com"><i className="icon-twitter" /></Link>
-								</li>
-								<li>
-									<Link to="/dribbble.com"><i className="icon-dribbble" /></Link>
-								</li>
-								<li>
-									<Link to="/behance.com"><i className="icon-behance" /></Link>
-								</li>
-								<li>
-									<Link to="/pinterest"><i className="icon-pinterest" /></Link>
+									<Link to="https://www.instagram.com/carrington_rufc/"><i className="icon-instagram" /></Link>
 								</li>
 							</ul>
 							<div className="form-register">

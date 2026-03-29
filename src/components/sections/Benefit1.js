@@ -14,8 +14,8 @@ export default function Benefit1() {
 					<div className="tf-benefit">
 						{/* header style v2 */}
 						<div className="title-box-v2 center-title-box title-large">
-							<span className="sub-title wow fadeInUp animated">running's benefits</span>
-							<h2 className="title-section wow fadeInUp animated">Benefits of running reference</h2>
+							<span className="sub-title wow fadeInUp animated">Club Pillars</span>
+							<h2 className="title-section wow fadeInUp animated">Benefits of the club</h2>
 						</div>{/* header style v2 */}
 						<div className="benefit-wrap-content">
 							<div className="row">
@@ -23,10 +23,10 @@ export default function Benefit1() {
 									<div className="benefit-item">
 										<div className="benefit-content">
 											<h6 className="title-benefit wow fadeInLeft animated">
-												Be healthy
+												Rugby for Everyone
 											</h6>
 											<p className="description-benefit wow fadeInLeft animated">
-												Improve your physical fitness and well-being through regular running.
+												All ages. All levels. All shapes. All backgrounds.
 											</p>
 										</div>
 										<div className="benefit-number">
@@ -36,10 +36,10 @@ export default function Benefit1() {
 									<div className="benefit-item">
 										<div className="benefit-content">
 											<h6 className="title-benefit wow fadeInLeft animated">
-												Feel Free
+												A Community That Grows Together
 											</h6>
 											<p className="description-benefit wow fadeInLeft animated">
-												Experience the freedom of running outdoors, and challenging yourself.
+												Carrington is more than a team. It’s a family.
 											</p>
 										</div>
 										<div className="benefit-number">
@@ -49,14 +49,10 @@ export default function Benefit1() {
 								</div>
 								<div className="col-md-4 benefit-center ">
 									<div className="benefit-video">
-										<img className="video" src="images/retinal/video.jpg" alt="" />
-										<a onClick={() => setOpen(true)} className="popup-youtube">
+										<img className="video" src="images/retinal/video.png" alt="" />
+										{/*<a onClick={() => setOpen(true)} className="popup-youtube">
 											<i className="icon-play3" />
-										</a>
-										<img className="shape-video-1" src="images/retinal/Inforgraphic.png" alt="" />
-										<img className="shape-video-2" src="images/retinal/Inforgraphic1.png" alt="" />
-										<img className="shape-video-3" src="images/retinal/Inforgraphic2.png" alt="" />
-										<img className="shape-video-4" src="images/retinal/Inforgraphic3.png" alt="" />
+										</a>*/}
 									</div>
 								</div>
 								<div className="col-md-4 benefit-on-right">
@@ -69,7 +65,7 @@ export default function Benefit1() {
 												Be one of us
 											</h6>
 											<p className="description-benefit wow fadeInRight animated">
-												Join a supportive community of like-minded runners and achieving goals together.
+												Every member contributes, matters, and helps shape the club’s identity.
 											</p>
 										</div>
 									</div>
@@ -79,9 +75,9 @@ export default function Benefit1() {
 										</div>
 										<div className="benefit-content">
 											<h6 className="title-benefit wow fadeInRight animated">
-												be strong</h6>
+												Proudly Carrington</h6>
 											<p className="description-benefit wow fadeInRight animated">
-												Build resilience and mental toughness as you push your limits.
+												Rooted in local pride, etched into history and community.
 											</p>
 										</div>
 									</div>

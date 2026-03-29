@@ -580,7 +580,7 @@ input[type="color"],
 
 .header-top {
 	padding: 9px 0;
-	background-color: var(--primary);
+	background-color: var(--yellow);
 }
 
 .header-inner {
@@ -1444,7 +1444,7 @@ ul.submenu li:hover {
 /* Page Title
 -------------------------------------------------------------- */
 .page-title {
-	background: url(../images/retinal/1.jpg) no-repeat center top;
+	background: url(../images/parallax/rug.jpg) no-repeat center top;
 	background-size: cover;
 	padding: 146px 0 97px 0;
 	text-align: center;

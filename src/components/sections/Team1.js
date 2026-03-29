@@ -10,7 +10,7 @@ export default function Team1() {
 					<div className="team-member">
 						<div className="title-box title-small center-title-box">
 							<span className="sub-title wow fadeInUp animated">Our team</span>
-							<h2 className="title-section wow fadeInUp animated">our member, couch</h2>
+							<h2 className="title-section wow fadeInUp animated">coaches</h2>
 						</div>
 						<div className="row team">
 							<div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
@@ -32,8 +32,8 @@ export default function Team1() {
 										</div>
 										<div className="shape-team" />
 									</div>
-									<h3 className="name-member">Chris pad</h3>
-									<h4 className="job">Co - Founder Zunzo</h4>
+									<h3 className="name-member">Alex</h3>
+									<h4 className="job">Captain</h4>
 								</div>
 							</div>
 							<div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
@@ -55,8 +55,8 @@ export default function Team1() {
 										</div>
 										<div className="shape-team" />
 									</div>
-									<h3 className="name-member">maverick</h3>
-									<h4 className="job">Manager</h4>
+									<h3 className="name-member">Tom</h3>
+									<h4 className="job">Vice-Captain</h4>
 								</div>
 							</div>
 							<div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
@@ -78,8 +78,8 @@ export default function Team1() {
 										</div>
 										<div className="shape-team" />
 									</div>
-									<h3 className="name-member">Jessica nguyen</h3>
-									<h4 className="job">Coach</h4>
+									<h3 className="name-member">Stuart</h3>
+									<h4 className="job">Chairman</h4>
 								</div>
 							</div>
 							<div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
@@ -101,8 +101,8 @@ export default function Team1() {
 										</div>
 										<div className="shape-team" />
 									</div>
-									<h3 className="name-member">jenifer nolan</h3>
-									<h4 className="job">Co - Founder Zunzo</h4>
+									<h3 className="name-member">Fez</h3>
+									<h4 className="job">Fulltime Legend</h4>
 								</div>
 							</div>
 						</div>

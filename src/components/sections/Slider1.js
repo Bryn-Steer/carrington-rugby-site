@@ -52,7 +52,7 @@ export default function Slider1() {
 
 							<div className="content-event">
 								<h2 className="title-event">
-									<Link to="/event-details">Summer Event 2026</Link>
+									<Link to="/contact">Summer Event 2026</Link>
 								</h2>
 
 								<ul>
@@ -71,7 +71,7 @@ export default function Slider1() {
 												/>
 											</svg>
 										</span>
-										<Link to="/event-details">June 20, 2026</Link>
+										<Link to="/contact">June 20, 2026</Link>
 									</li>
 
 									<li>
@@ -89,7 +89,7 @@ export default function Slider1() {
 												/>
 											</svg>
 										</span>
-										<Link to="/event-details">Start 06:00 PM - Until Finish</Link>
+										<Link to="/contact">Start 06:00 PM - Until Finish</Link>
 									</li>
 
 									<li>
@@ -107,7 +107,7 @@ export default function Slider1() {
 												/>
 											</svg>
 										</span>
-										<Link to="/event-details">Banky Lane, Banky Ln, Sale M33 5SL</Link>
+										<Link to="/contact">Banky Lane, Banky Ln, Sale M33 5SL</Link>
 									</li>
 								</ul>
 							</div>
